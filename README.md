@@ -12,7 +12,7 @@ A machine learning pipeline that predicts next-day stock returns for sports-sect
 | **Win Rate** | 62.5% | 63.3% |
 | **Total Return** | +27.96% | +69.75% |
 | **Max Drawdown** | 11.27% | 21.06% |
-| **Buy & Hold Benchmark** | −9.1% | — |
+| **Buy & Hold Benchmark** | −9.1% | +95.9 |
 | **Total Trades** | 49 | 49 |
 | **Transaction Fees** | 0.1% per trade | 0.1% per trade |
 
