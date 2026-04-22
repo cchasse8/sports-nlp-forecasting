@@ -8,8 +8,8 @@ A machine learning pipeline that predicts next-day stock returns for sports-sect
 
 | Metric | NKE (Nike) | DKNG (DraftKings) |
 |---|---|---|
-| **Sharpe Ratio** | 1.993 | 2.208 |
-| **Win Rate** | 62.5% | 63.3% |
+| **Sharpe Ratio** | 1.258 | 2.208 |
+| **Win Rate** | 60.4% | 63.3% |
 | **Total Return** | +27.96% | +69.75% |
 | **Max Drawdown** | 11.27% | 21.06% |
 | **Buy & Hold Benchmark** | −9.1% | +95.9 |
@@ -85,7 +85,7 @@ A 27-combination grid search across `n_estimators` [200, 400, 600], `max_depth` 
 
 | Ticker | n_estimators | max_depth | min_leaf | Sharpe | Win Rate | Return |
 |---|---|---|---|---|---|---|
-| NKE | 200 | 8 | 10 | 1.993 | 62.5% | +27.96% |
+| NKE | 200 | 8 | 10 | 1.993 | 60.4% | +16.12% |
 | DKNG | 600 | 8 | 20 | 2.208 | 63.3% | +69.75% |
 
 The different optimal `n_estimators` between tickers reflects their different volatility profiles — DKNG's higher price volatility benefits from more trees to average out noise.
