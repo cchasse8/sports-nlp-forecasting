@@ -1,4 +1,6 @@
 # sports-nlp-forecasting
+Sports, Sentiment, and Stock Returns
+A Student Research Project in Business Analytics
 
 A machine learning pipeline that predicts next-day stock returns for sports-sector companies by combining traditional price/technical features with NLP sentiment signals from four data sources. Built and evaluated on Nike (NKE) and DraftKings (DKNG) over the 2020–2023 period.
 
